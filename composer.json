@@ -1,0 +1,19 @@
+[13:06] Bhuvnesh Kumar Anand
+{
+    "name": "ishaan-sam/demo-package",
+    "description": "This package is just for learning purpose",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ishaan Kapoor",
+            "email": "ishaan@samarth.ac.in"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "mypackage\\": "src/"
+        }
+    },
+    "require": {}
+}
